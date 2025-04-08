@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A7);
+
+}
+
+main {
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+    /* 
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16 px geralmente = 1em
+    */
+    /* 
+    Shorthand font
+    - font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bolder 1.2em sans-serif;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #F39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.726);
+}
+
+h2 {
+    color: #125189;
+} 
+
+p {
+    text-align: justify;
+}

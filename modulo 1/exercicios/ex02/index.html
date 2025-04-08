@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias e Vídeos em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir essa imagem em vários dispositivos diferentes ou simplismente aumente e diminui o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Stomp.mp3" type="audio/mpeg">
+        infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Stomp.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+    
+    <h1>Inserindo Vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <p>Quando da o play aqui, ele consome dados do proprio servidor, se torna muito caro para o cliente.</p>
+    <video controls poster="img/capa.png" width="800">
+        <source src="midia/paisagem-anime.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <p>Este vídeo está hospedado no meu YouTube.</p>
+    <p>Quando da o play aqui, ele consome dados do YouTube, cliente não gasta com dados aqui.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/o2sg33waaBo?si=scUtRg8eKqbz720w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

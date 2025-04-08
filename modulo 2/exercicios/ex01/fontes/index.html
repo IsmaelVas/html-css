@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;600;700&display=swap');
+        .testando-fonte-import {
+            font-family: "Kaushan Script", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Olondona';
+            src: url('Olondona.otf') format('opentype'), url('OldLondon.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /* 
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        .testando-fonte-baixada {
+            font-family: 'Olondona';
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Site de Exemplo</h1>
+        <h2>Título 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo et, repellendus culpa quibusdam corrupti deserunt praesentium? Nostrum laborum voluptatibus odio porro fuga veniam exercitationem. Iure reprehenderit neque quo dignissimos nihil!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, in? Quia, cupiditate dolorum. Ex, aut veniam! Totam quidem, molestias cupiditate temporibus consequuntur harum enim eaque ut dolor sed assumenda nesciunt!</p>
+        <h2>Título 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto nisi harum asperiores debitis nostrum illum, beatae omnis quo magnam cum unde quia quos culpa dicta facere atque maiores natus corporis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa harum, alias possimus aliquid sunt itaque eos aut dolore iure totam nostrum quod ratione tenetur eaque quis ipsa ducimus blanditiis. Eligendi.</p>
+        
+        <h1 class="testando-fonte-import">Testando Grafia Externa Com Link/Import</h1>
+        <h2 class="testando-fonte-import">Título 1</h2>
+        <p class="testando-fonte-import">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus quam quas dolorem, provident enim exercitationem rerum eius commodi laudantium earum expedita perspiciatis voluptatum accusantium, impedit, quod quos sunt. Numquam.</p>
+        <p class="testando-fonte-import">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tempore deleniti, reiciendis sapiente perferendis reprehenderit iste ut vitae dicta natus perspiciatis id sequi consequuntur quasi pariatur et quisquam earum odio?</p>
+        <h2 class="testando-fonte-import">Título 2</h2>
+        <p class="testando-fonte-import">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, repudiandae tempore cum tempora est doloremque ipsum soluta deleniti totam corporis quaerat numquam adipisci officiis illo sit perspiciatis suscipit fuga consequuntur.</p>
+        <p class="testando-fonte-import">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit neque ex impedit sit deleniti excepturi quae, soluta temporibus hic optio ipsum qui enim cupiditate dolor tempora dolorum nostrum eligendi.</p>
+
+        <h1 class="testando-fonte-baixada">Testando Grafia Externa Baixadas</h1>
+        <h2 class="testando-fonte-baixada">Título 1</h2>
+        <p class="testando-fonte-baixada">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quod necessitatibus nihil laborum quia adipisci nemo fugiat praesentium incidunt assumenda pariatur ipsa quae labore aperiam unde laboriosam, architecto voluptatum dolor?</p>
+        <p class="testando-fonte-baixada">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt illo sunt nostrum cum itaque quo eveniet. Esse quo eius veritatis. Iste eligendi consectetur inventore accusantium rerum iure qui est ratione?</p>
+        <h2 class="testando-fonte-baixada">Título 2</h2>
+        <p class="testando-fonte-baixada">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minima, praesentium mollitia soluta molestias sapiente repellat aspernatur, possimus eligendi inventore consequatur ad voluptatibus temporibus, dolore ut voluptates delectus quod amet.</p>
+        <p class="testando-fonte-baixada">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione iusto quod laboriosam, excepturi aspernatur culpa nisi maxime quibusdam eveniet inventore. Vel sequi deserunt beatae earum deleniti sint fuga aliquid soluta?</p>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+HTML (estrutura do site)
+
+Aprenda sobre:
+Tags básicas como <html>, <head>, <body>, <h1> a <h6>, <p>, <a>, <img>, <div>, <span>.
+Estruturas de listas: <ul>, <ol>, <li>.
+Formulários: <form>, <input>, <button>, <label>.
+Semântica: <header>, <footer>, <nav>, <section>, <article>.
+
+CSS (estilização)
+
+Foque em:
+Seletores básicos: class, id, elemento.
+Propriedades de texto, cores, margens e padding.
+Layouts: flexbox e grid.
+Media queries (responsividade).
+
+JavaScript (interatividade)
+
+Comece com:
+Variáveis, tipos de dados, operadores.
+Condicionais e loops.
+Funções e eventos (ex.: clicar em um botão).
+Manipulação do DOM.
+Exercícios para começar:
+HTML:
+Crie uma página simples com título, parágrafos, imagens e links.
+Faça uma lista de tarefas (usando <ul> ou <ol>).
+CSS:
+Adicione cores e fontes personalizadas ao exercício anterior.
+Experimente criar um layout simples usando flexbox.
+JavaScript:
+Crie um botão que, ao ser clicado, exibe uma mensagem (usando alert).
+Faça uma lista de tarefas onde o usuário possa adicionar itens dinamicamente.

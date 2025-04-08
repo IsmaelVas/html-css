@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+div {
+    width: auto;
+    height: auto;
+    padding: 2px;
+    margin: 2px;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    border-radius: 10px
+}
+
+h1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    color: darkgoldenrod;
+}
