@@ -4,38 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Animes</title>
+
     <style>
         body {
-            color: #ffff;
-            background-color: rgb(36, 34, 34);
+            background: linear-gradient(90deg, #3d0b8d, #4f2791, #624099);
             justify-items: center;
         }
 
         h1 {
-            background: -webkit-linear-gradient(left, rgb(84, 233, 54), rgb(41, 185, 178), rgb(34, 78, 160));
+            background: -webkit-linear-gradient(left, rgb(49, 156, 28), rgb(51, 150, 146), rgb(46, 85, 156));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 60px;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
         }
 
         .anime-container img {
-            margin: 3px;
-            border-radius: 8px;
-            border: 4px solid darkblue
+            margin: 10px;
+            width: 220px;
+            height: 350px;
+            border: 4px solid darkblue;
+            border-radius: 10%;
+            box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.253);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            object-fit: cover;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .anime-container a:nth-child(1) img {
+            animation-delay: 0.3s;
+        }
+
+        .anime-container a:nth-child(2) img {
+            animation-delay: 0.4s;
+        }
+
+        .anime-container a:nth-child(3) img {
+            animation-delay: 0.6s;
+        }
+
+        .anime-container a:nth-child(4) img {
+            animation-delay: 0.9s;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .anime-container img:hover {
+            transform: scale(1.15) rotate(1deg);
+            cursor: pointer;
+            filter: brightness(1.1);
         }
     </style>
 </head>
 
 <body>
-    <h1>Melhores animes para assistir</h1>
+    <h1>Melhores Shorts 2025</h1>
     <div class="anime-container">
-        <a href="guildas.html"><img width="300" height="480" src="img/guildas.png" alt="Thumbnail Solo Leveling"></a>
-        <a href="itarim.html"><img width="300" height="480" src="img/itarim.png" alt="Thumbnail Solo Leveling"></a>
-        <a href="maisfortes.html"><img width="300" height="480" src="img/maisfortes.png" alt="Thumbnail Solo Leveling"></a>
-        <a href="monarcas.html"><img width="300" height="480" src="img/monarcas.png" alt="Thumbnail Solo Leveling"></a>
+        <a href="guildas.html"><img src="img/guildas.png" alt="Thumbnail Solo Leveling"></a>
+        <a href="itarim.html"><img src="img/itarim.png" alt="Thumbnail Solo Leveling"></a>
+        <a href="maisfortes.html"><img src="img/maisfortes.png"
+                alt="Thumbnail Solo Leveling"></a>
+        <a href="monarcas.html"><img src="img/monarcas.png" alt="Thumbnail Solo Leveling"></a>
     </div>
 </body>
 

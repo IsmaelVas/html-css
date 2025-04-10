@@ -8,7 +8,6 @@
     <title>Solo Leveling</title>
     <style>
         body {
-            color: #ffff;
             background-color: rgb(36, 34, 34);
             text-align: center;
             justify-items: center;
@@ -32,6 +31,24 @@
             border-radius: 8px;
             border: 2px solid darkblue
         }
+
+        a img {
+            transition: 0.5s;
+        }
+
+        img:hover {
+            transform: scale(1.15);
+            cursor: pointer;
+        }
+
+        .gostou {
+            transition: 0.4s;
+        }
+
+        .gostou:hover {
+            transform: scale(1.2);
+        }
+
     </style>
 </head>
 
@@ -41,7 +58,7 @@
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <a href="https://www.youtube.com/channel/UCBkAWs2Mw-8L3bDKuekoOXw" target="_blank" rel="external">Gostou? Acesse o
+    <a class="gostou" href="https://www.youtube.com/channel/UCBkAWs2Mw-8L3bDKuekoOXw" target="_blank" rel="external">Gostou? Acesse o
         canal aqui</a>
     <a href="index.html"><img src="img/voltar.png" alt="Seta de voltar"></a>
 </body>
